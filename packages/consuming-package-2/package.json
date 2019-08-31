@@ -1,0 +1,17 @@
+{
+  "name": "consuming-package-2",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "compile": "npx tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.3",
+    "typescript": "^3.6.2"
+  },
+  "dependencies": {
+    "dependency-package": "1.0.0"
+  },
+  "license": "MIT"
+}

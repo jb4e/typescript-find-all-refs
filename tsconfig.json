@@ -1,0 +1,8 @@
+{
+    "include": [],
+    "composite": true,
+    "references": [
+      { "path": "packages/consuming-package-1" },
+      { "path": "packages/consuming-package-2" }
+    ]
+}

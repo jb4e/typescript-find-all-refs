@@ -1,0 +1,14 @@
+{
+  "name": "dependency-package",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "compile": "npx tsc"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^3.6.2"
+  },
+  "license": "MIT"
+}
